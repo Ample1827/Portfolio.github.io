@@ -15,7 +15,7 @@ function ShowcaseSection() {
             TEMPORY NAME FOR THE APP
             </h2>
             <p className="text-white/70 md:text-xl">
-                DISSCRIPTION OF THE PROJECT WILL BE ADDED HERE AND LATTER
+                DISSCRIPTION OF THE PROJECT WILL BE ADDED HERE AND LATTE
             </p>
             </div>
           </div>
