@@ -91,24 +91,24 @@ const navLinks = [
   
   const techStackImgs = [
     {
-      name: "React Developer",
-      imgPath: "/images/logos/react.png",
+      name: "AI Engineer",
+      imgPath: "/images/logos/neural.png",
     },
     {
       name: "Python Developer",
       imgPath: "/images/logos/python.svg",
     },
     {
-      name: "Backend Developer",
-      imgPath: "/images/logos/node.png",
+      name: "Full-Stack Developer",
+      imgPath: "/images/logos/react.png",
     },
     {
-      name: "Interactive Developer",
-      imgPath: "/images/logos/three.png",
+      name: "DevOps / Cloud Engineer",
+      imgPath: "/images/logos/aws.png",
     },
     {
-      name: "Project Manager",
-      imgPath: "/images/logos/git.svg",
+      name: "Project Leader & Mentor",
+      imgPath: "/images/logos/scrum.png",
     },
   ];
   
@@ -149,8 +149,8 @@ const navLinks = [
     {
       review:
         "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/images/exp1.png",
-      logoPath: "/images/logo1.png",
+      imgPath: "/images/icons8-aws (1).svg",
+      logoPath: "/images/icons8-aws (1).svg",
       title: "Frontend Developer",
       date: "January 2023 - Present",
       responsibilities: [
@@ -162,8 +162,8 @@ const navLinks = [
     {
       review:
         "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "/images/exp2.png",
-      logoPath: "/images/logo2.png",
+      imgPath: "/images/Outlier.svg",
+      logoPath: "/images/logos/neural.png",
       title: "Full Stack Developer",
       date: "June 2020 - December 2023",
       responsibilities: [

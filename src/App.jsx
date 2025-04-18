@@ -1,6 +1,11 @@
 import Hero from './sections/Hero.jsx'
 import ShowcaseSection from './sections/ShowcaseSection.jsx'
-import Navbar from './coponents/Navbar.jsx'
+import Navbar from './components/Navbar.jsx'
+import LogoSection from './sections/LogoSection.jsx'
+import FeatureCards from './sections/FeatureCards.jsx'
+import ExperienceSection from './sections/ExperienceSection.jsx'
+import Testimonials from './sections/Testimonials.jsx'
+import TechStack from './sections/Techstack.jsx'
 
 const App = () => {
   return (
@@ -8,6 +13,11 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <ShowcaseSection/>
+    <LogoSection/>
+    <FeatureCards/>
+    <ExperienceSection/>
+    <TechStack/>
+    <Testimonials/>
     </>
   )
 }
