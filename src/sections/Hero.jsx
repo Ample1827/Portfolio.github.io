@@ -1,6 +1,8 @@
 import { words} from '../constants/index.js'
 import Button from '../coponents/Button.jsx'
 import HeroExperience from '../coponents/HeroModels/HeroExperience.jsx'
+import AnimatedCounter from '../coponents/AnimatedCounter.jsx'
+
 
 
 const Hero = () => {
@@ -58,6 +60,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
+      <AnimatedCounter/>
     </section>
   )
 }
