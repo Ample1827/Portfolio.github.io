@@ -8,7 +8,7 @@ function ShowcaseSection() {
         {/* LEFT */}
         <div className="first-project-wrapper">
         <div className="image-wrapper">
-            <img src="/images/project1.png" alt="Ryde" />
+            <img src={`${import.meta.env.BASE_URL}images/project1.png`} alt="Ryde" />
             </div>
             <div className="text-content">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
@@ -24,7 +24,7 @@ function ShowcaseSection() {
           <div className="project">
             <div className="image-wrapper bg-[#FFE7EB]">
               <img
-                src="/images/project2.png"
+                src="${import.meta.env.BASE_URL}images/project2.png"
                 alt="Library Management Platform"
               />
             </div>
@@ -36,7 +36,7 @@ function ShowcaseSection() {
           <div className="project">
             <div className="image-wrapper bg-[#FFE7EB]">
               <img
-                src="/images/project3.png"
+                src="${import.meta.env.BASE_URL}images/project3.png"
                 alt="YC Directory App"
               />
             </div>
