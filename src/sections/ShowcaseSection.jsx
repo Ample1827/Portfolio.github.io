@@ -12,10 +12,13 @@ function ShowcaseSection() {
             </div>
             <div className="text-content">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-            TEMPORY NAME FOR THE APP
+            Smart Inventory Management System (SIMS)
             </h2>
             <p className="text-white/70 md:text-xl">
-                DISSCRIPTION OF THE PROJECT WILL BE ADDED HERE AND LATTE
+            (SIMS) is a full-stack Python-based application designed to streamline inventory tracking,
+             automate stock updates, and provide real-time analytics using AI insights.
+             It helps businesses manage inventory efficiently through a user-friendly interface,
+             intelligent forecasting, and seamless integration with existing workflows.
             </p>
             </div>
           </div>
@@ -41,7 +44,7 @@ function ShowcaseSection() {
               />
             </div>
             <h2>
-              YC Directory - A Startup Showcase App
+              A Startup Showcase App
             </h2>
           </div>
         </div>

@@ -12,7 +12,7 @@ const navLinks = [
       link: "#skills",
     },
     {
-      name: "Testimonials",
+      name: "User Endorsements",
       link: "#testimonials",
     },
   ];
@@ -22,17 +22,17 @@ const navLinks = [
     { text: "Concepts", imgPath: "images/concepts.svg" },
     { text: "Designs", imgPath: "images/designs.svg" },
     { text: "Code", imgPath: "images/code.svg" },
-    { text: "Ideas", imgPath: "images/ideas.svg" },
-    { text: "Concepts", imgPath: "images/concepts.svg" },
-    { text: "Designs", imgPath: "images/designs.svg" },
-    { text: "Code", imgPath: "images/code.svg" },
+    { text: "Proposals", imgPath: "images/ideas.svg" },
+    { text: "Models", imgPath: "images/concepts.svg" },
+    { text: "Mockups", imgPath: "images/designs.svg" },
+    { text: "Programs", imgPath: "images/code.svg" },
   ];
   
   const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 5, suffix: "+", label: "Years of Experience" },
+    { value: 100, suffix: "+", label: "Satisfied Clients" },
+    { value: 32, suffix: "+", label: "Completed Projects" },
+    { value: 92, suffix: "%", label: "Client Retention Rate" },
   ];
   
   const logoIconsList = [
@@ -74,18 +74,18 @@ const navLinks = [
   const abilities = [
     {
       imgPath: "images/seo.png",
-      title: "Quality Focus",
+      title: "Efficient Engineering",
       desc: "Delivering high-quality results while maintaining attention to every detail.",
     },
     {
       imgPath: "images/chat.png",
-      title: "Reliable Communication",
-      desc: "Keeping you updated at every step to ensure transparency and clarity.",
+      title: "Clear Communication",
+      desc: "Maintaining transparency through regular updates, detailed walkthroughs, and collaborative feedback.",
     },
     {
       imgPath: "images/time.png",
-      title: "On-Time Delivery",
-      desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+      title: "Reliable Delivery",
+      desc: "Ensuring projects are delivered on time with a focus on quality, testing, and long-term maintainability.",
     },
   ];
   
@@ -148,40 +148,40 @@ const navLinks = [
   const expCards = [
     {
       review:
-        "Adalberto brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+        "Adalberto brought creativity and technical expertise to the team, significantly improving our backend performance. His work has been invaluable in delivering faster experiences.",
       imgPath: "images/icons8-aws (1).svg",
       logoPath: "images/icons8-aws (1).svg",
-      title: "Frontend Developer",
-      date: "January 2023 - Present",
+      title: "Software Engineer | FullStack Engineer",
+      date: "January 2020 - Present",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
+        "Set up Dockerized infrastructure with AWS, deploying a small client database using EC2 and S3 to improve system performance and deployment speed.",
+        "Built a modern client-facing landing page using React and TailwindCSS to enhance user experience.",
+        "Scripted a Python tool to auto-sort and validate invoices, improving accuracy and boosting productivity by ~30%..",
       ],
     },
     {
       review:
-        "Adalberto’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+        "Adalberto’s contributions to our web apps and AI tooling have been outstanding. His ability to design scalable prompt templates and fine-tune LLM workflows shows a deep understanding of problem-solving and real-world application",
       imgPath: "images/Outlier.svg",
       logoPath: "images/logos/neural.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
+      title: "AI Engineer | FullStack Engineer",
+      date: "2024 September - Present",
       responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
+        "Led the development of internal AI tooling, focusing on scalable LLM prompt templates and dynamic workflows.",
+        "Collaborated with backend engineers to integrate AI-driven APIs into production web apps for real-time insights.",
+        "Contributed to internal frameworks powering LLM-based features, improving inference speed and prompt consistency.",
       ],
     },
     {
       review:
-        "Adalberto’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+        "Adalberto’s work on our inventory management system brought a high level of quality and efficiency. He delivered robust, scalable solutions that streamlined operations and directly supported our business goals.",
       imgPath: "images/exp3.png",
       logoPath: "images/logo3.png",
-      title: "React Native Developer",
-      date: "March 2019 - May 2020",
+      title: "Software Engineer",
+      date: " 2021 May - Sep 2024",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
+        "Containerized the full-stack application for seamless deployment, improving consistency between dev and production environments and accelerating iteration cycles.",
+        "Automated data entry, validation, and categorization, reducing human error and cutting manual processing time by over 50%.",
         "Coordinated with the product team to implement features based on feedback.",
       ],
     },
@@ -218,8 +218,8 @@ const navLinks = [
       imgPath: "images/client3.png",
     },
     {
-      name: "Guy Hawkins",
-      mentions: "@guyhawkins",
+      name: "Omar Farouk",
+      mentions: "@OmarFarouk",
       review:
         "Collaborating with Adalberto was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adalberto's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adalberto is the ideal partner.",
       imgPath: "images/client2.png",
