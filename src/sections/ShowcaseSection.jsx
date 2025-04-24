@@ -32,7 +32,7 @@ function ShowcaseSection() {
               />
             </div>
             <h2 className="text-xl font-semibold">
-              The Library Management Platform
+              A Management Platform
             </h2>
           </div>
 
